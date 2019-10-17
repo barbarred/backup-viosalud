@@ -1,0 +1,433 @@
+/*
+Theme Name: Vio Salud
+Theme URI: https://viosalud.com/
+Author: Guarida Verde
+Author URI: https://guaridaverde.com/
+Description: Theme Para Vio Salud
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vio-salud
+Tags: healthcoach, nutricion, comidasana, 
+*/
+
+/* FUENTES */
+@font-face {
+    font-family: 'brusherregular';
+    src: url('fonts/brusher-webfont.woff2') format('woff2'),
+         url('fonts/brusher-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* HEADER */
+header{
+	width: 100%;
+	height: 90px;
+}
+body{
+	font-family: 'Quicksand';
+}
+div.contain-header h1{
+	font-family: 'brusherregular';
+	color: #612094;
+	font-size: 64px;
+}
+div.contain-header p{
+	font-size: 20px;
+}
+div.container-header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+div.container-logo{
+	width: 30%;
+}
+div.container-nav{
+	width: 60%;
+}
+div.container-menu-mobile{
+	display: none;
+}
+nav.menu-main-menu-container ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+	text-decoration: none;
+}
+nav.menu-main-menu-container ul li{
+	padding-right: 50px;
+} 
+nav.menu-main-menu-container ul li a{
+	color: #000;
+	text-decoration: none;
+}
+nav.menu-main-menu-container ul li a:hover{
+	color: #612094;
+}
+div.container-nav{
+	padding-top: 25px;
+}
+div.container-nav-dos{
+	width: 100%;
+}
+div.container-logo{
+	padding-left: 30px;
+}
+div.logo img{
+	width: 70%;	
+}
+/* ESTILOS PARA LA SECCION HEADER */ 
+div.seccion-header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+div.img-header{
+	width: 100%;
+	height: 600px;
+	background-image: url('images/bgm_viosalud_desktop-min.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+div.contain-header{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0px;
+}
+div.text-header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+div.text-header p{
+	font-size: 20px;
+}
+div.text-header h4{
+	color: #612094;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+div.text-header p{
+	text-align: center;
+}
+/* ESTILOS PARA EL BANNER */
+div.banner{
+	width: 100%;
+	height: 200px;
+	background-image: url('images/bgn_calltoaction_viosalud.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+div.contain-banner{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+div.contain-banner h3{
+	color: #FFF;
+	font-size: 28px;
+	font-weight: bold;
+}
+/* PORQUE UN HEALTH COACH */
+div.porque{
+	width: 100%;
+	height: 250px;
+}
+div.contain-porque{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+div.contain-porque p{
+	font-size: 20px;
+	text-align: center;
+}
+/* FORMULARIO HOME */
+div.form-home{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+div.form-home input.wpcf7-email{
+	height: 40px;
+	padding-left: 10px;
+}
+div.form-home input.boton-enviar-home{
+	width: 240px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+/* TESTIMONIOS */
+div.testimonios{
+	width: 100%;
+	height: 400px;
+	background-color: #612094;
+}
+div#carouselExampleControls{
+	width: 100%;
+	height: 100%;
+}
+div.contain-testimonios p{
+	color: #FFF;
+}
+div.carousel-inner {
+	width: 100%;
+	height: 100%;
+}
+div.carousel-item{
+	width: 100%;
+	height: 100%;
+}
+div.msj-testimonios{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+div.msj-testimonios p{
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+}
+div.foto-test{
+	width: 100px;
+	height: 100px;
+}
+div.foto-test img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: solid 3px #FFF;
+}
+/* FOOTER */
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+}
+div.container-footer{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.logo-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.logo-footer img{
+	width: 180px;
+	height: 91px;
+}
+div.nav-footer h4{
+	color: #FFF;
+	padding-left: 40px;
+}
+div.text-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.text-footer p{
+	font-size: 18px;
+	color: #FFF;
+}
+div.redes h4{
+	color: #FFF;
+}
+div.redes p{
+	margin-bottom: 2px;
+}
+div.redes a{
+	color: #FFF;
+	text-decoration: none;
+}
+div.redes a:hover{
+	color: #612094;
+}
+nav.menu-menu-footer-container ul{
+	list-style: none;
+	text-decoration: none;
+}
+nav.menu-menu-footer-container ul li a{
+	color: #FFF;
+	text-decoration: none;
+}
+nav.menu-menu-footer-container ul li a:hover{
+	color: #612094;
+}
+/* SECCION DE SMOOTHIES */
+div.container-smoothies-mobile{
+	display: none;
+}
+div.container-smoothies{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h2.title-smoothies{
+	color: #612094;
+	font-weight: bold;
+	text-align: center;
+}
+div.contain-tarjeta{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+div.tarjeta{
+	width: 100%;
+	border: solid 2px #E6E6E6;
+	border-top: solid 2px #FAFAFA;
+	box-shadow: 0px 3px #BDBDBD;
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+div.tarjeta:hover{
+	width: 100%;
+	border: solid 2px #E6E6E6;
+	border-top: solid 2px #FAFAFA;
+	box-shadow: 3px 6px #BDBDBD;
+	border-radius: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+div.tarjeta a{
+	text-decoration: none;
+}
+div.tarjeta h5{
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+div.img-tarjeta{
+	width: 40%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+div.img-tarjeta img{
+	width: 100%;
+    border: 4px solid #612094;
+    border-radius: 50%;
+    padding: 2px;
+}
+/* ESTILOS PARA EL MODAL SMOOTHIES */
+ div.container-modal{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: row;
+ }
+ div.img-modal{
+ 	width: 50%;
+ }
+ div.img-modal img{
+ 	width: 90%;
+ }
+ div.texto-modal{
+ 	width: 50%;
+ }
+ div.texto-modal h4{
+ 	font-weight: bold;
+ 	color: #612094;
+ }
+ p.nota{
+ 	font-style: italic;
+ 	color: #612094;
+ }
+ /* ESTILOS PARA PREGUNTAS FRECUENTES */
+ div.container-faq{
+ 	width: 100%;
+ }
+ div.container-faq h4{
+ 	font-weight: bold;
+ 	color: #612094;
+ }
+ div.container-faq p{
+ 	font-size: 18px;
+ }
+ hr.line{
+ 	height: 1px;
+ 	background-color: #D8D8D8;
+ }
+ h3.title-pregunta{
+ 	font-weight: bold;
+ 	color: #612094;
+ }
+
+ /* ESTILOS PARA EL CALENDARIO */ 
+div.contain-numbers-mobile{
+	display: none;
+}
+
+ div.contain-numbers{
+ 	width: 90%;
+ 	height: 140px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	background-color: #612094;
+ 	padding-top: 30px;
+ 	padding-bottom: 30px;
+ 	border-radius: 10px;
+ }
+ p.text-calen{
+ 	font-size: 20px;
+ }
+ div.modulos-numbers1{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ }
+ div.modulos-numbers1 p{
+ 	color: #FFF;
+ 	font-weight: bold;
+ }
+ div.modulos-numbers{
+ 	width: 100%;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ 	border-left: 1px solid gray;
+ }
+ div.modulos-numbers p{
+ 	margin-bottom: 0px;
+ 	color: #FFF;
+ 	font-weight: bold;
+ }
+ p.tres{
+ 	font-size: 60px;
+ }
+ p.pesos{
+ 	font-size: 40px;
+ }
+
